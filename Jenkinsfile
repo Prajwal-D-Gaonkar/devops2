@@ -11,6 +11,7 @@ pipeline {
         stage('Build Java Application') {
             steps {
                 bat 'javac HelloWorld.java'
+                bat 'dir'
             }
         }
 
